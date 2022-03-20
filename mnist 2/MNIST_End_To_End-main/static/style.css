@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: rgb(236, 162, 214);
+}
+h1 {
+    background: rgb(240, 145, 203);
+    background: -webkit-linear-gradient(to right, #0debdc, #0debdc, #0debdc);
+    background: linear-gradient(to right, #18afdd, #1a84db, #1787e4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container {
+    height: 100%;
+    display: flex;
+}
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 15%;
+    background-color: #000000;
+}
+#toolbar * {
+    margin-bottom: 6px;
+}
+#toolbar label {
+    font-size: 12px;
+}
+#toolbar input {
+    width: 100%;
+}
+#toolbar button {
+    background-color: #1fb6e4;
+    border: none;
+    border-radius: 4px;
+    color:rgb(221, 130, 198);
+    padding: 2px;
+    margin: 2px;
+}
